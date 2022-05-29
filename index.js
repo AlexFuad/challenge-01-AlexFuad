@@ -11,7 +11,7 @@ const firstUser = {
     var education= new object();
     education.name= ("SD 01", "SMP 02", "SMA 03");
     education.city= ("Jakarta", "Jakarta", "Tangerang");
-    education.graduate= ("2016","2019");
+    education.graduate= ("2016","2019", null);
     function education(education.name, education.city, education.graduate) {
     this.name = education.name,
     this.city = education.city,
@@ -30,7 +30,7 @@ const secondUser = {
     var education= new object();
     education.name= ("SD 02", "SMP 03", "SMA 01", "Universitas Maju");
     education.city= ("Jakarta", "Bogor", "Surabaya", "Tangerang");
-    education.graduate= ("2010","2013", "2016");
+    education.graduate= ("2010","2013", "2016", null);
     function education(education.name, education.city, education.graduate) {
     this.name = education.name,
     this.city = education.city,
