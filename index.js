@@ -6,7 +6,7 @@ const firstUser = {
     gender: "Female",
     age: "17",
     email: "monica@dingdong.com",
-    favoriteColor: ("Yellow","Pink","White","Purple"),
+    favoriteColor: Array.from(new Set(["Yellow","Pink","White","Purple"])),
     isHavePet: true,
     var education= new object();
     education.name= ("SD 01", "SMP 02", "SMA 03");
@@ -17,7 +17,7 @@ const firstUser = {
     this.city = education.city,
     this.graduate = education.graduate
     };
-    favoriteRestaurant: ("Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"),
+    favoriteRestaurant: Array.from(new Set(["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"])),
 };
 
 const secondUser = {
@@ -25,7 +25,7 @@ const secondUser = {
     gender: "Male",
     age: "23",
     email: "wendy@dingdong.com",
-    favoriteColor: ("Blue","Black","Grey"),
+    favoriteColor: Array.from(new Set(["Blue","Black","Grey"])),
     isHavePet: false,
     var education= new object();
     education.name= ("SD 02", "SMP 03", "SMA 01", "Universitas Maju");
@@ -36,7 +36,7 @@ const secondUser = {
     this.city = education.city,
     this.graduate = education.graduate
     };
-    favoriteRestaurant: ("Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"),
+    favoriteRestaurant: Array.from(new Set(["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"])),
 };
 
 
